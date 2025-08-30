@@ -13,4 +13,7 @@ You'll also need to build [N64Recomp](https://github.com/N64Recomp/N64Recomp) fo
 ## Building
 * First, run `make` (with an optional job count) to build the mod code itself.
 * Next, run the `RecompModTool` utility with `mod.toml` as the first argument and `build` as the second argument.
+  * Example: 
+    * Windows: `.\RecompModTool.exe mod.toml build`
+    * Linux: `./RecompModTool mod.toml build`
   * This will produce the mod's `.nrm` file in the `build` folder.

@@ -53,8 +53,11 @@ elf_path = "build/mod.elf"
 mod_filename = "dino_recomp_mod_template"
 
 # Reference symbol files.
-func_reference_syms_file = "lib/dino-recomp-mod-api/dino.syms.toml"
-data_reference_syms_files = [ "lib/dino-recomp-mod-api/dino.datasyms.toml" ]
+func_reference_syms_file = "lib/dino-recomp-decomp-bridge/dino.syms.toml"
+data_reference_syms_files = [
+    "lib/dino-recomp-decomp-bridge/dino.datasyms.toml",
+    "lib/dino-recomp-decomp-bridge/dino.datasyms_manual.toml"
+]
 
 # Additional files to include in the mod.
 additional_files = [ ]
