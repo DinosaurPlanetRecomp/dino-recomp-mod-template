@@ -1,4 +1,4 @@
-# Dinosaur Planet: Recompiled Mod Template
+# Dinosaur Planet: Recompiled - Mod Template
 This is an example mod for Dinosaur Planet: Recompiled that can be used as a template for creating mods. It has a basic build system, headers, sample code, and a mod config toml.
 
 ## Getting Started
